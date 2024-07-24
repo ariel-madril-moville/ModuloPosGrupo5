@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://deh1l42el37ik"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_h6svx"]
+
+[resource]
+script = ExtResource("1_h6svx")
+question_info = "Qual artista é conhecido como o \"Rei do Pop\"?"
+type = 0
+options = Array[String](["Elvis Presley", "Michael Jackson", "Prince"])
+corret = "Michael Jackson"

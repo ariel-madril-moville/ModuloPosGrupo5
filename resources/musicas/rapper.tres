@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dow76r5saadam"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_kbiny"]
+
+[resource]
+script = ExtResource("1_kbiny")
+question_info = "Qual desses artistas não é um rapper?"
+type = 0
+options = Array[String](["Kendrick Lamar", "Post Malone", "John Mayer"])
+corret = "John Mayer"

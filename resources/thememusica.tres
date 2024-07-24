@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="QuizTheme" load_steps=12 format=3 uid="uid://dk2nt2qj1k3oo"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/theme.gd" id="1_5klu1"]
+[ext_resource type="Resource" uid="uid://c3ot57dytgbfn" path="res://resources/musicas/u2.tres" id="2_6p1b4"]
+[ext_resource type="Resource" uid="uid://dfwmp85kb611u" path="res://resources/musicas/The_Moon.tres" id="3_2ynpa"]
+[ext_resource type="Resource" uid="uid://cj73rajpklu8l" path="res://resources/musicas/taylor.tres" id="4_eicys"]
+[ext_resource type="Resource" uid="uid://bjg8cjq4qh1rv" path="res://resources/musicas/rollinginthedeep.tres" id="5_vdpdw"]
+[ext_resource type="Resource" uid="uid://deh1l42el37ik" path="res://resources/musicas/rei_pop.tres" id="6_tplvl"]
+[ext_resource type="Resource" uid="uid://dow76r5saadam" path="res://resources/musicas/rapper.tres" id="7_cy304"]
+[ext_resource type="Resource" uid="uid://bp3wxpo11g6ie" path="res://resources/musicas/queen.tres" id="8_jggtr"]
+[ext_resource type="Resource" uid="uid://1paqdeyvpnxn" path="res://resources/musicas/nevermind.tres" id="9_tk2t6"]
+[ext_resource type="Resource" uid="uid://bn4falo8woo8q" path="res://resources/musicas/guardacosta.tres" id="10_pkx5e"]
+[ext_resource type="Resource" uid="uid://cib6vf0jf1xpo" path="res://resources/musicas/edsherman.tres" id="11_woo6p"]
+
+[resource]
+script = ExtResource("1_5klu1")
+theme = Array[Resource("res://scripts/resoucers/question.gd")]([ExtResource("2_6p1b4"), ExtResource("3_2ynpa"), ExtResource("4_eicys"), ExtResource("5_vdpdw"), ExtResource("6_tplvl"), ExtResource("7_cy304"), ExtResource("8_jggtr"), ExtResource("9_tk2t6"), ExtResource("10_pkx5e"), ExtResource("11_woo6p")])

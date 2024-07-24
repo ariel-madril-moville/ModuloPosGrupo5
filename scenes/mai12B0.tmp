@@ -1,0 +1,94 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbmyrw8pt8mxu"]
+
+[ext_resource type="Script" path="res://scripts/controllers/game_controlle.gd" id="1_0x23r"]
+[ext_resource type="Resource" uid="uid://ccfx4v5npjy8c" path="res://resources/themeCinemaeTV.tres" id="2_tp6yu"]
+
+[node name="main" type="CanvasLayer"]
+script = ExtResource("1_0x23r")
+quiz = ExtResource("2_tp6yu")
+color_right = Color(0, 0.494118, 0, 0.85098)
+color_wrong = Color(1, 0, 0, 0.858824)
+
+[node name="content" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="QuestionInfo" type="VBoxContainer" parent="content"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.718
+anchor_right = 0.718
+offset_left = -400.92
+offset_right = 400.08
+offset_bottom = 473.0
+grow_horizontal = 0
+
+[node name="QuestionText" type="Label" parent="content/QuestionInfo"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 50
+text = "Pergunta"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="ImageHolder" type="Panel" parent="content/QuestionInfo"]
+custom_minimum_size = Vector2(0, 400)
+layout_mode = 2
+
+[node name="QuestionImage" type="TextureRect" parent="content/QuestionInfo/ImageHolder"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="QuestionVideo" type="VideoStreamPlayer" parent="content/QuestionInfo/ImageHolder"]
+clip_contents = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand = true
+
+[node name="questionAudio" type="AudioStreamPlayer2D" parent="content/QuestionInfo/ImageHolder"]
+
+[node name="QuestionHolder" type="VBoxContainer" parent="content"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.718
+anchor_top = 0.965
+anchor_right = 0.718
+anchor_bottom = 0.965
+offset_left = -393.92
+offset_top = -491.16
+offset_right = 393.08
+offset_bottom = -0.160034
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 40
+
+[node name="Button" type="Button" parent="content/QuestionHolder"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 60
+
+[node name="Button2" type="Button" parent="content/QuestionHolder"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 60
+
+[node name="Button3" type="Button" parent="content/QuestionHolder"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 60

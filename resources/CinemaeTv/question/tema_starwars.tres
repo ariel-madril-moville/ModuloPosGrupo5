@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=3 format=3 uid="uid://18lcv2btptqo"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_bnua6"]
+[ext_resource type="AudioStream" uid="uid://c4gdr20n44gf3" path="res://assets/audio/01. Main Title star wars.mp3" id="1_wqov3"]
+
+[resource]
+script = ExtResource("1_bnua6")
+question_info = "Esse tema Pertence a qual Filme"
+type = 2
+question_audio = ExtResource("1_wqov3")
+options = Array[String](["Star Wars", "Indiana Jones", "Velozes e Furiosos"])
+corret = "Star Wars"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dlkqadkkxx5g0"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_m4660"]
+
+[resource]
+script = ExtResource("1_m4660")
+question_info = "Em que ano foi lançada a série \"Friends\"?"
+type = 0
+options = Array[String](["1992", "1994", "1996"])
+corret = "1994"

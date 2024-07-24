@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bm1q6rj4l6u25"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_5nurw"]
+
+[resource]
+script = ExtResource("1_5nurw")
+question_info = "Em que cidade a série \"Stranger Things\" se passa?"
+type = 0
+options = Array[String](["Springfield", "Gotham", "Hawkins"])
+corret = "Hawkins"

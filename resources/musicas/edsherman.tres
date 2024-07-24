@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cib6vf0jf1xpo"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_qbnx5"]
+
+[resource]
+script = ExtResource("1_qbnx5")
+question_info = "Qual dessas músicas é de Ed Sheeran?"
+type = 0
+options = Array[String](["Shape of You", "Blinding Lights", "Uptown Funk"])
+corret = "Shape of You"

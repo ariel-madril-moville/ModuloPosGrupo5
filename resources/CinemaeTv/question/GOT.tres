@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://du3ldc2b00mw"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_v5i23"]
+
+[resource]
+script = ExtResource("1_v5i23")
+question_info = "Qual série de TV se passa em Westeros e foi baseada nos livros de George R.R. Martin?"
+type = 0
+options = Array[String](["The Mandalorian", "The Witcher", "Game of Thrones"])
+corret = "Game of Thrones"

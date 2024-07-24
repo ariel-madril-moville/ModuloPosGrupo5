@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="QuizTheme" load_steps=12 format=3 uid="uid://ccfx4v5npjy8c"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/theme.gd" id="1_ny1qf"]
+[ext_resource type="Resource" uid="uid://g7hh7cu0y155" path="res://resources/CinemaeTv/question/cena_pulp_fiction.tres" id="2_k6lnt"]
+[ext_resource type="Resource" uid="uid://bm1q6rj4l6u25" path="res://resources/CinemaeTv/question/cidade_st.tres" id="3_il8gk"]
+[ext_resource type="Resource" uid="uid://d2hcnkmjli8mt" path="res://resources/CinemaeTv/question/diretor_De_et.tres" id="4_ecdq4"]
+[ext_resource type="Resource" uid="uid://o4nvngbtknpd" path="res://resources/CinemaeTv/question/django.tres" id="5_own58"]
+[ext_resource type="Resource" uid="uid://dlkqadkkxx5g0" path="res://resources/CinemaeTv/question/friends.tres" id="6_secee"]
+[ext_resource type="Resource" uid="uid://du3ldc2b00mw" path="res://resources/CinemaeTv/question/GOT.tres" id="7_8jkwm"]
+[ext_resource type="Resource" uid="uid://dpljky0j1goi3" path="res://resources/CinemaeTv/question/melhor_filme_2020.tres" id="8_1l2hu"]
+[ext_resource type="Resource" uid="uid://biklxr5s6xxg" path="res://resources/CinemaeTv/question/primeiro_filme_disney.tres" id="9_o4vhm"]
+[ext_resource type="Resource" uid="uid://k0gg3kc84hx3" path="res://resources/CinemaeTv/question/qual_nome_personagem_breakingbad.tres" id="10_2rt5y"]
+[ext_resource type="Resource" uid="uid://18lcv2btptqo" path="res://resources/CinemaeTv/question/tema_starwars.tres" id="11_p2fp0"]
+
+[resource]
+script = ExtResource("1_ny1qf")
+theme = Array[Resource("res://scripts/resoucers/question.gd")]([ExtResource("2_k6lnt"), ExtResource("3_il8gk"), ExtResource("4_ecdq4"), ExtResource("5_own58"), ExtResource("6_secee"), ExtResource("7_8jkwm"), ExtResource("8_1l2hu"), ExtResource("9_o4vhm"), ExtResource("10_2rt5y"), ExtResource("11_p2fp0")])

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bn4falo8woo8q"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_4pvv3"]
+
+[resource]
+script = ExtResource("1_4pvv3")
+question_info = "Qual música foi um grande sucesso de Whitney Houston nos anos 90 e faz parte da trilha sonora do filme \"O Guarda-Costas\"?"
+type = 0
+options = Array[String](["I WaDance with Somebody", "I Will Always Love You", "How Will I Know"])
+corret = "I Will Always Love You"

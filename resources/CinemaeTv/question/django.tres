@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://o4nvngbtknpd"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_jo1ke"]
+
+[resource]
+script = ExtResource("1_jo1ke")
+question_info = "Qual desses filmes foi dirigido por Quentin Tarantino?"
+type = 0
+options = Array[String](["A Origem", "Django Livre", "Gladiador"])
+corret = "Django Livre"

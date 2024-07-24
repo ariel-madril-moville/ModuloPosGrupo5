@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c3ot57dytgbfn"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_2q0yl"]
+
+[resource]
+script = ExtResource("1_2q0yl")
+question_info = "Quem é o cantor principal da banda U2?"
+type = 0
+options = Array[String](["Bono", "Sting", "Dave Gahan"])
+corret = "Bono"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://biklxr5s6xxg"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_kuf68"]
+
+[resource]
+script = ExtResource("1_kuf68")
+question_info = "Qual foi o primeiro filme de animação da Disney?"
+type = 0
+options = Array[String](["Pinóquio", "Branca de Neve e os Sete Anões", "Fantasia"])
+corret = "Branca de Neve e os Sete Anões"

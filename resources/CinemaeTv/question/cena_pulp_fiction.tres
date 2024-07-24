@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=3 format=3 uid="uid://g7hh7cu0y155"]
+
+[ext_resource type="VideoStream" path="res://assets/video/pulpdance.ogv" id="1_1mjdw"]
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_gq63x"]
+
+[resource]
+script = ExtResource("1_gq63x")
+question_info = "De qual Filme é essa cena"
+type = 3
+question_video = ExtResource("1_1mjdw")
+options = Array[String](["KillBill", "Pulp Fiction", "O Farol"])
+corret = "Pulp Fiction"

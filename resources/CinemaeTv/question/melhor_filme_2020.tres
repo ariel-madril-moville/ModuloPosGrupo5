@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dpljky0j1goi3"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_uv67u"]
+
+[resource]
+script = ExtResource("1_uv67u")
+question_info = "Qual filme ganhou o Oscar de Melhor Filme em 2020?"
+type = 0
+options = Array[String](["1917", "Parasita", "Era Uma Vez em... Hollywood"])
+corret = "Parasita"

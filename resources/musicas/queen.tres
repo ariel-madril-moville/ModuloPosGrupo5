@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bp3wxpo11g6ie"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_ghlc3"]
+
+[resource]
+script = ExtResource("1_ghlc3")
+question_info = "Qual música da banda Queen começa com a letra \"Is this the real life? Is this just fantasy?\"?"
+type = 0
+options = Array[String](["We Will Rock You", "Don't Stop Me Now", "Bohemian Rhapsody"])
+corret = "Bohemian Rhapsody"

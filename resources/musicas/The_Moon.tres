@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dfwmp85kb611u"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_r3lel"]
+
+[resource]
+script = ExtResource("1_r3lel")
+question_info = "Qual banda lançou o álbum \"The Dark Side of the Moon\" em 1973?"
+type = 0
+options = Array[String](["Led Zeppelin", "Pink Floyd", "The Rolling Stones"])
+corret = "Pink Floyd"

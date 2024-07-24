@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://d2hcnkmjli8mt"]
+
+[ext_resource type="Script" path="res://scripts/resoucers/question.gd" id="1_uu32q"]
+
+[resource]
+script = ExtResource("1_uu32q")
+question_info = "Qual diretor é conhecido por filmes como \"E.T. - O Extraterrestre\" e \"Jurassic Park\"?"
+type = 0
+options = Array[String](["James Cameron", "Steven Spielberg", "George Lucas"])
+corret = "Steven Spielberg"
